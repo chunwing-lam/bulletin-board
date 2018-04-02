@@ -49,6 +49,10 @@ div.note p {
     font-family: "Shadows Into Light", Arial;
 }
 
+div.note:hover {
+  z-index: 2;
+}
+
 div.note:hover > span {
     opacity: 1;
 }
